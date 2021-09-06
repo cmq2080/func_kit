@@ -1,7 +1,7 @@
 <?php
 /**
  * 描述：
- * Created at 2021/9/6 9:03 by 陈庙琴
+ * Created at 2021/9/6 9:03 by Temple Chan
  */
 
 namespace cmq2080\func_kit;
@@ -121,7 +121,7 @@ class Request
 
     /**
      * 功能：判断请求是否来自于微信
-     * Created at 2021/9/6 9:11 by 陈庙琴
+     * Created at 2021/9/6 9:11 by Temple Chan
      * @return bool
      * @throws \Exception
      */

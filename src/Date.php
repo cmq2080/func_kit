@@ -1,7 +1,7 @@
 <?php
 /**
  * 描述：
- * Created at 2021/9/6 9:54 by 陈庙琴
+ * Created at 2021/9/6 9:54 by Temple Chan
  */
 
 namespace cmq2080\func_kit;
@@ -11,7 +11,7 @@ class Date
 {
     /**
      * 功能：获取格式化后的时间
-     * Created at 2021/9/6 10:30 by 陈庙琴
+     * Created at 2021/9/6 10:30 by Temple Chan
      * @param string $format
      * @param null $timestamp
      * @return false|string
@@ -27,7 +27,7 @@ class Date
 
     /**
      * 功能：获取汉字状态下的日期
-     * Created at 2021/9/6 10:28 by 陈庙琴
+     * Created at 2021/9/6 10:28 by Temple Chan
      * @param null $timestamp
      * @return string
      */

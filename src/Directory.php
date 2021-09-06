@@ -1,7 +1,7 @@
 <?php
 /**
  * 描述：
- * Created at 2021/9/6 10:24 by 陈庙琴
+ * Created at 2021/9/6 10:24 by Temple Chan
  */
 
 namespace cmq2080\func_kit;
@@ -11,7 +11,7 @@ class Directory
 {
     /**
      * 功能：创建目录
-     * Created at 2021/9/6 10:27 by 陈庙琴
+     * Created at 2021/9/6 10:27 by Temple Chan
      * @param $dir
      */
     public static function make($dir)
@@ -23,7 +23,7 @@ class Directory
 
     /**
      * 功能：删除目录
-     * Created at 2021/9/6 10:27 by 陈庙琴
+     * Created at 2021/9/6 10:27 by Temple Chan
      * @param $dir
      */
     public static function del($dir)

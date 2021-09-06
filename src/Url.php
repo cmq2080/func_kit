@@ -1,7 +1,7 @@
 <?php
 /**
  * 描述：
- * Created at 2021/9/6 9:49 by 陈庙琴
+ * Created at 2021/9/6 9:49 by Temple Chan
  */
 
 namespace cmq2080\func_kit;
@@ -23,7 +23,7 @@ class Url
 
     /**
      * 功能：使用js弹出消息并重定向到上一级
-     * Created at 2021/9/6 9:49 by 陈庙琴
+     * Created at 2021/9/6 9:49 by Temple Chan
      * @param $message
      * @param null $redirect_url
      */

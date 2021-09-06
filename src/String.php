@@ -1,7 +1,7 @@
 <?php
 /**
  * 描述：
- * Created at 2021/9/6 9:12 by 陈庙琴
+ * Created at 2021/9/6 9:12 by Temple Chan
  */
 
 namespace cmq2080\func_kit;
@@ -11,7 +11,7 @@ class String
 {
     /**
      * 功能：字符串驼峰转蛇式
-     * Created at 2021/9/6 9:16 by 陈庙琴
+     * Created at 2021/9/6 9:16 by Temple Chan
      * @param $string
      * @return string
      */
@@ -31,7 +31,7 @@ class String
 
     /**
      * 功能：判断字符串是否以某字符串为结尾
-     * Created at 2021/9/6 9:18 by 陈庙琴
+     * Created at 2021/9/6 9:18 by Temple Chan
      * @param $haystack
      * @param $needle
      * @return bool
@@ -54,7 +54,7 @@ class String
 
     /**
      * 功能：字符串限制
-     * Created at 2021/9/6 9:20 by 陈庙琴
+     * Created at 2021/9/6 9:20 by Temple Chan
      * @param $string
      * @param $length
      * @param string $sign
@@ -73,7 +73,7 @@ class String
 
     /**
      * 功能：去除字符串中重复的子字符串
-     * Created at 2021/9/6 9:27 by 陈庙琴
+     * Created at 2021/9/6 9:27 by Temple Chan
      * @param $string
      * @param string $str
      * @return mixed
@@ -91,7 +91,7 @@ class String
 
     /**
      * 功能：生成随机字符串
-     * Created at 2021/9/6 9:27 by 陈庙琴
+     * Created at 2021/9/6 9:27 by Temple Chan
      * @param int $length
      * @param bool $only_number
      * @param bool $case_insensitive
@@ -120,7 +120,7 @@ class String
 
     /**
      * 功能：字符串多路替换
-     * Created at 2018/10/1 15:22 by 陈庙琴
+     * Created at 2018/10/1 15:22 by Temple Chan
      * @param $string
      * @param $replace_array
      * @return mixed
@@ -159,7 +159,7 @@ class String
 
     /**
      * 功能：字符串切片
-     * Created at 2021/9/6 9:35 by 陈庙琴
+     * Created at 2021/9/6 9:35 by Temple Chan
      * @param $string
      * @param $length
      * @param string $sign
@@ -184,7 +184,7 @@ class String
 
     /**
      * 功能：判断字符串是否以某字符串为开头
-     * Created at 2021/9/6 9:46 by 陈庙琴
+     * Created at 2021/9/6 9:46 by Temple Chan
      * @param $haystack
      * @param $needle
      * @return bool

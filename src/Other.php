@@ -5,7 +5,7 @@ class Other
 {
     /**
      * 功能：获取目标类的最终类名
-     * Created at 2021/9/6 9:53 by 陈庙琴
+     * Created at 2021/9/6 9:53 by Temple Chan
      * @param $obj
      * @return mixed
      */

@@ -1,7 +1,7 @@
 <?php
 /**
  * 描述：
- * Created at 2021/9/6 9:02 by 陈庙琴
+ * Created at 2021/9/6 9:02 by Temple Chan
  */
 
 namespace cmq2080\func_kit;
