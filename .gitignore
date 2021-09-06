@@ -1,0 +1,9 @@
+# 开发环境
+.idea
+.vscode
+
+# 第三方依赖
+vendor
+
+# 其他
+test

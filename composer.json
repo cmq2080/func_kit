@@ -1,0 +1,24 @@
+{
+    "name": "cmq2080/func_kit",
+    "description": "Temple Chan的PHP函数库",
+    "type": "library",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "php": ">=5.4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Temple Chan",
+            "email": "cmq2080@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "cmq2080\\func_kit\\": "src/"
+        }
+    }
+}
