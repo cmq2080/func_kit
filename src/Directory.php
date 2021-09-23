@@ -28,17 +28,29 @@ class Directory
      */
     public static function del($dir)
     {
+        self::clear($dir);
+        rmdir($dir);
+    }
+
+    /**
+     * 功能：清空目录
+     * Created at 2021/9/6 10:27 by Temple Chan
+     * @param $dir
+     */
+    public static function clear($dir)
+    {
         foreach (scandir($dir) as $node) {
             if ($node === '.' || $node === '..') {
                 continue;
             }
-            if (is_dir($dir . '/' . $node) === true) {
-                self::del($dir . '/' . $node);
-            } else if (is_file($dir . '/' . $node) === true) {
-                unlink($dir . '/' . $node);
+
+            $path = $dir . '/' . $node;
+            if (is_dir($path) === true) {
+                self::clear($path);
+                rmdir($path);
+            } else if (is_file($path) === true) {
+                unlink($path);
             }
         }
-
-        rmdir($dir);
     }
 }
